@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Making Bootstrap Glyphicons easily available in Rails."
   s.description = "Making Bootstrap Glyphicons easily available in Rails."
 
-  s.files = Dir["{lib,vendor}}/**/*"] + ["Rakefile", "README.md"]
+  s.files = Dir["{lib,vendor}/**/*"] + ["Rakefile", "README.md"]
 
   s.add_dependency "rails", "> 3.1"
 end
